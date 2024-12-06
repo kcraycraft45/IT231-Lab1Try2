@@ -9,8 +9,13 @@
             Console.WriteLine("Anotha one ");
             int y = int.Parse(Console.ReadLine()!);
             Console.WriteLine("Thank you");
+            DoMath(x, y);
         }
-       
+        public static void DoMath(int x, int y)
+        {
+            int z = x * y;
+            Console.WriteLine($"{x} * {y} = {z}");
+        }
     }
 }
 
